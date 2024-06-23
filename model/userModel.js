@@ -10,7 +10,8 @@ module.exports = (sequelize, DataTypes) => {
       },
       email: {
         type: DataTypes.TEXT,
-        allowNull:false
+        allowNull:false,
+        unique:true
       },
      
     });
